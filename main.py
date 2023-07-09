@@ -5,6 +5,7 @@ db.initialize("todolist.db")
 db.createTable("Todo", "(Title text, Description text, Status text)")
 db.insertValues("Todo", "('test Title', 'description test', 'pending' )")
 
+#this is a github test
 
 window = tk.Tk()
 
